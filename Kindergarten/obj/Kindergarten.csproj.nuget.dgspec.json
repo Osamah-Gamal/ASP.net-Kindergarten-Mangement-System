@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zeyad\\source\\repos\\Kindergarten\\Kindergarten\\Kindergarten.csproj": {}
+    "C:\\Users\\hashim\\source\\repos\\ITPG3Esmail\\Kindergarten\\Kindergarten.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zeyad\\source\\repos\\Kindergarten\\Kindergarten\\Kindergarten.csproj": {
+    "C:\\Users\\hashim\\source\\repos\\ITPG3Esmail\\Kindergarten\\Kindergarten.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zeyad\\source\\repos\\Kindergarten\\Kindergarten\\Kindergarten.csproj",
+        "projectUniqueName": "C:\\Users\\hashim\\source\\repos\\ITPG3Esmail\\Kindergarten\\Kindergarten.csproj",
         "projectName": "Kindergarten",
-        "projectPath": "C:\\Users\\zeyad\\source\\repos\\Kindergarten\\Kindergarten\\Kindergarten.csproj",
-        "packagesPath": "C:\\Users\\zeyad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zeyad\\source\\repos\\Kindergarten\\Kindergarten\\obj\\",
+        "projectPath": "C:\\Users\\hashim\\source\\repos\\ITPG3Esmail\\Kindergarten\\Kindergarten.csproj",
+        "packagesPath": "C:\\Users\\hashim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hashim\\source\\repos\\ITPG3Esmail\\Kindergarten\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\zeyad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hashim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "E:\\labtop\\package": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -68,7 +77,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -80,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
