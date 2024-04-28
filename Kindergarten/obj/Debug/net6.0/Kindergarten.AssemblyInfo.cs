@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kindergarten")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb97061e064f99016058cb64dccdbfb43cd16726")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1a2a2cc0f87c17fdf0b337d13754c2806eeaf18")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kindergarten")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kindergarten")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

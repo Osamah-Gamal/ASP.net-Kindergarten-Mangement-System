@@ -7,37 +7,28 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Kindergarten.styles.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/fonts-6/css/all.css" />
-     
-      
 </head>
 <body>
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #306dc9;">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-             
-            <li class="nav-item">
-                <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-             </li>
-      
-            <li class="nav-item">
-                <a class="nav-link " asp-area="" asp-controller="Home" asp-action="About">About Us</a>
-             </li>
-              <li class="nav-item">
-                <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Contact">Contact Us</a>
-             </li>
-            
-             <li class="nav-item">
-              <a class="nav-link"href="#">Sign Up</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Kindergarten</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -45,29 +36,11 @@
         </main>
     </div>
 
-  <div style="margin-bottom: -105px;">
-          
-          <footer class="text-center text-lg-start " style="background-color: #306dc9;">
-        <div class="container d-flex justify-content-center py-5">
-          <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
-            <i class="fab fa-facebook-f"></i>
-          </button>
-          <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
-            <i class="fab fa-youtube"></i>
-          </button>
-          <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
-            <i class="fab fa-instagram"></i>
-          </button>
-          <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
-            <i class="fab fa-twitter"></i>
-          </button>
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - Kindergarten - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
-
-  <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2024 Copyright:
-  </div>
-  </footer>
-  </div>
+    </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
