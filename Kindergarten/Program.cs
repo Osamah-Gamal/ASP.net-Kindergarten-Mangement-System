@@ -1,3 +1,4 @@
+using Kid.Data;
 using Kindergarten;
 using Kindergarten.Data;
 using Microsoft.AspNetCore.Authentication.Cookies;
